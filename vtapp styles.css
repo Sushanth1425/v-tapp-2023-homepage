@@ -1,0 +1,248 @@
+p,
+            li,h1,h2,.l3{
+                font-family: Open Sans, sans-serif;
+                text-align: left;
+            }
+            .header-bar{
+                display: flex;
+                padding-top: 20px;
+                top: 0;
+                background-color: white;
+                padding-bottom: 20px;
+                position: fixed;
+                z-index: 10000;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+            }
+            .logo{
+                height: 65px;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                margin-left: -150px;
+            }
+            .left{
+                display: flex;
+                margin-left: -50px;
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                padding-left: 20px;
+            }
+            .right-l1,
+            .right-l2{
+                display: flex;
+            }
+            .l1tag1,
+            .l1tag2,
+            .l1tag3,
+            .l1tag4,
+            .l1tag5,
+            .l1tag6,
+            .l2tag1,
+            .l2tag2,
+            .l2tag3,
+            .l2tag4,
+            .l2tag5,
+            .l2tag6{
+                cursor: pointer;
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                line-height: 24px;
+                list-style-position: outside;
+                margin-bottom: -10px;
+                color: rgb(33, 37, 41);
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            button{
+                background: transparent;
+                border: 0px;
+                padding: 10px;
+            }
+            .rightmenu{
+                position: relative;
+                display: inline-block;
+            }
+            .dropdownmenu{
+                display: none;
+                position: absolute;
+                width: 150px;
+                z-index: 1;
+            }
+            .dropdownmenu:hover{
+                background-color: white;
+            }
+            .dropdownmenu a:hover{
+                background-color: blueviolet;
+            }
+            .rightmenu:hover .dropdownmenu{
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                padding: 20px;
+            }
+            .l1tag2-dropdown:hover .l1tag2-button{
+                background-color: transparent;
+            }
+
+
+            .banner{
+                display: flex;
+                justify-content: center;
+                margin-top: 165px;
+            }
+            .banner-img{
+                height: 350px;
+                width: 1116px;
+                object-fit: cover;
+            }
+            .banner-on-img{
+                height: 100px;
+                width: 100%;
+            }
+            .big-img{
+                position: relative;
+            }
+            .small-img{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .on-text{
+                position: absolute;
+                top: 50px;
+                right: 10px;
+                display: block;
+                color: white;
+                padding: 20px;
+                text-align: right;
+            }
+            h1{
+                font-size: 70px;
+                font-style: italic;
+                font-weight: 800;
+                letter-spacing: 1.2px;
+                line-height: 63.6px;
+                margin-bottom: -25px;
+                text-align: right;
+                text-shadow: rgb(0, 0, 0) 3px 3px 2px
+            }
+            h2{
+                font-size: 35px;
+                font-weight: 800;
+                line-height: 42px;
+                margin-bottom: -20px;
+                text-align: right;
+                text-shadow: rgb(10, 10, 10) 3px 3px 1px
+            }
+            .l3{
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 38.4px;
+                text-align: right;
+                text-shadow: rgb(0, 0, 0) 3px 3px 1px
+            }
+            .title1,
+            .title2,
+            .title3,
+            .title4,
+            .title5,
+            .title6,
+            .title7,
+            .title8,
+            .title9{
+                color: rgb(34, 110, 147);
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 38.4px;
+            }
+            .c1,
+            .c2,
+            .c3,
+            .c4,
+            .c5,
+            .c7,
+            .c8,
+            .c9
+            {
+                color: rgb(33, 37, 41);
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 24px;
+                text-align: justify;
+            }
+            .c6,
+            .c9{
+                display: block;
+            }
+            .d-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                margin-right: 90px;
+                margin-left: 90px;
+            }
+            .best-pap-cir{
+                width: 671px;
+            }
+            .pics3{
+                display: flex;
+                justify-content: space-between;
+            }
+            .best-pap-photo{
+                height: auto;
+                width: 450px;
+                margin-left: 20px;
+                object-fit: cover;
+            }
+            .p1,
+            .p2,
+            .p3,
+            .p4{
+                width: 456px;
+            }
+            .p1{
+                height: 260px;
+                object-fit: fill;
+            }
+            .pics4{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                justify-content: center;
+                row-gap: 30px;
+            }
+            .last-line{
+                background-color: rgb(16, 97, 204);
+                height: 70px;
+                color: white;
+                font-size: 15px;
+                font-weight: 300;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                margin-top: 150px;
+                position: relative;
+            }
+            .a{
+                text-decoration: none;
+                color: rgb(33, 37, 41);
+                transition: .4s;
+            }
+            .a:hover{
+                color:  rgb(36, 36, 230);
+            }
+            .a:active{
+                color:  rgb(36, 36, 230);
+            }
